@@ -1,0 +1,55 @@
+header
+{
+    /* TelltailGames */
+
+    display: flex;
+}
+
+.title
+{
+    margin: 32px 0 25px 57px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 38px;
+}
+
+.root
+{
+    color: black;
+    text-decoration: none;
+}
+
+.path2996
+{
+    /* path2996 */
+
+    margin: 0 0;
+    padding: 0;
+    width: 35px;
+    height: 38px;
+}
+
+.Teilltail
+{
+    color: #F49EC4;
+    margin: 0 0 0 -5px;
+    padding: 0;
+}
+
+.line
+{
+    /* Line */
+
+    width: 100hv;
+    height: 0px;
+    left: 0px;
+    top: 96px;
+
+    background: #919191;
+    border: 1px solid #959393;
+    transform: rotate(-0.06deg);
+    margin-bottom: 9px;
+}

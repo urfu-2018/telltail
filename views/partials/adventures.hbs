@@ -1,0 +1,28 @@
+<div class="wrap-adventure">
+{{#if adventures.length}}
+<h1 class="title-hash">#{{ title }}</h1>
+<ul class="list-adv">
+    {{#each adventures}}
+        <li class="adventure-{{ id }} adv">
+            <img src="" alt="">
+                <a href="/{{ numberAction }}" class="link-adv">
+                    <img src="img/adv-img-{{ id }}.svg" class="adv-img" alt="adv-img-{{ id }}">
+                </a>
+            <section class="container">
+                <a href="/{{ numberAction }}" class="link-adv">{{ title }}</a>
+                <p class="description">{{ description }}</p>
+                <section class="panel-tags">
+                    {{#each hashings}}
+                        {{#each hash}}
+                        <a href="/tags/{{ en }}" class="link-tags"><button class="bt-hash-tegs">#{{ ru }}</button></a>
+                        {{/each}}
+                    {{/each}}
+                </section>
+            </section>
+        </li>
+    {{/each}}
+</ul>
+{{^}}
+    <p class="not-found-advent">Нет приключений, обратитесь к разработчику приключений! Либо подождите 2 минуты, данные подгружает)))</p>
+{{/if}}
+</div>

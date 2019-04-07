@@ -1,0 +1,12 @@
+npm install --save-dev nodemon
+nodemon.json
+
+{
+    "watch": ["dist/", "views/", "public/"],
+     "ext": "js,json, hbs"
+}
+
+npm install pg
+npm install sequelize
+npm install sequelize-typescript@canary
+npm install reflect-metadata
